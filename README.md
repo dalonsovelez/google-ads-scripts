@@ -27,5 +27,5 @@ Designed for coordination between Omnicom agencies, it ensures that tracking ano
 ### 👤 Credits
 **Author:** Daniel Alonso  
 **Role:** Global Head of Data & AdTech for SEAT, CUPRA & Škoda @ Omnicom Media  
-**Context:** Global operations management (Europe, MENA, Mexico, Australia).
-*Copyright © 2025. This asset is part of the Global AdTech Governance Framework.*
+**Context:** Global operations management (Europe, MENA, Mexico, Australia).  
+**Copyright © 2025. This asset is part of the Global AdTech Governance Framework.**
