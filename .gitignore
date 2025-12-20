@@ -1,0 +1,6 @@
+# Logs and temporary files
+*.log
+.DS_Store
+
+# Google Ads Script exports
+*.csv
