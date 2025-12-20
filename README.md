@@ -1,11 +1,6 @@
 # Google Ads Global Conversion Monitoring Framework
 ## Technical QA & Data Integrity for SEAT, CUPRA & Škoda
 
-### 👤 Executive Profile
-**Lead Architect:** Daniel Alonso  
-**Role:** Global Head of Data & AdTech for SEAT, CUPRA & Škoda @ Omnicom Media  
-**Context:** Global operations management (Europe, MENA, Mexico, Australia).
-
 ---
 
 ### 📋 Strategic Overview
@@ -29,6 +24,8 @@ Designed for coordination between Omnicom agencies, it ensures that tracking ano
 5.  Schedule for **Daily Execution** (Recommended: 05:00 AM).
 
 ---
-### 👤 Credits & Author
-**Daniel Alonso** - Global Data Operations Lead.  
+### 👤 Credits
+**Author:** Daniel Alonso  
+**Role:** Global Head of Data & AdTech for SEAT, CUPRA & Škoda @ Omnicom Media  
+**Context:** Global operations management (Europe, MENA, Mexico, Australia).
 *Copyright © 2025. This asset is part of the Global AdTech Governance Framework.*
