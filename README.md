@@ -1,31 +1,34 @@
-# Google Ads Global Conversion Monitoring Framework
-## Technical QA & Data Integrity for SEAT, CUPRA & Škoda
+# Google Ads Global Automation Framework
+## Technical QA, Monitoring & Data Hygiene for SEAT, CUPRA & Škoda
 
 ---
 
-### 📋 Strategic Overview
-In high-complexity AdTech environments, tracking failures in conversion pixels (Floodlights) can lead to significant media spend inefficiency. This **Google Ads Script (JavaScript)** provides an automated, baseline-driven monitoring layer across a global MCC ecosystem.
-
-Designed for coordination between Omnicom agencies, it ensures that tracking anomalies are detected within 48 hours, safeguarding algorithmic optimization.
-
-### 🚀 Key Technical Features
-* **Baseline-Driven Anomaly Detection:** Compares real-time performance against a 14-day rolling average using GAQL (Google Ads Query Language).
-* **Market-Specific Heuristics:** Includes logic to filter relevance based on ISO country codes and brand prefixes.
-* **Consolidated Global Alerting:** Aggregates alerts from multiple markets into a single executive report to prevent alert fatigue.
-* **Zero-Trust Architecture:** Designed to run in restricted MCC environments with full audit logging.
+### 📋 Overview
+A collection of professional **Google Ads Scripts (JavaScript)** designed for global MCC management. These tools automate the auditing and monitoring of conversion signals across multinational accounts, ensuring data integrity and optimizing media spend.
 
 
 
-### 🛠 Implementation Guide
-1.  Navigate to your **Google Ads MCC** > Tools & Settings > Scripts.
-2.  Create a new script and copy the content from `/scripts/google_ads_conversion_monitor.js`.
-3.  Grant **MccApp** and **MailApp** permissions.
-4.  Configure the `NOTIFICATION_EMAILS` and `DROP_PERCENTAGE_THRESHOLD` variables.
-5.  Schedule for **Daily Execution** (Recommended: 05:00 AM).
+### 🛠 Active Solutions
+
+#### 1. Critical Conversion Drop Monitor (`/monitoring`)
+* **Purpose:** Real-time anomaly detection for conversion pixels.
+* **Logic:** Compares current performance against a 14-day baseline (GAQL).
+* **Impact:** Immediate detection of server-side failures or pixel drops in global markets.
+
+#### 2. Floodlight Zero Activity Audit (`/auditing`)
+* **Purpose:** Ecosystem hygiene and lifecycle management.
+* **Logic:** Heuristic-based filtering to identify inactive tags without cross-market false positives.
+* **Impact:** Simplifies the decommissioning of legacy assets and validates new implementations.
+
+### 🚀 Strategic Implementation
+These scripts are engineered for high-complexity environments with multiple vendors (**PHD, Annalect, Adylic**). They prioritize:
+* **Market Heuristics:** Automatic filtering by ISO country codes.
+* **Alert Consolidation:** Single executive reporting to avoid alert fatigue.
+* **Scalability:** Ready for EU5, Mexico, and Australia MCC structures.
 
 ---
-### 👤 Credits
-**Author:** Daniel Alonso  
+
+### 👤 Author & Credits
+**Lead Architect:** Daniel Alonso  
 **Role:** Global Head of Data & AdTech for SEAT, CUPRA & Škoda @ Omnicom Media  
-**Context:** Global operations management (Europe, MENA, Mexico, Australia).  
-**Copyright © 2025. This asset is part of the Global AdTech Governance Framework.**
+**Copyright:** © 2025. Developed for Global Data Operations.
